@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <u>
+                <li><a href="index.html">index</a></li>
+            </u>
+        </nav>
+    </header>
+
+    <!-- action: donde Envia La Informacion-->
+    <!-- method Get: visible la info Post:invisible la info-->
+    <form  method="POST" action="juanis.frero@hotmail.com">
+        <h2>ingresa tu usuario</h2>
+        <input type="text" name="usuario" placeholder="Nombre" required>
+        <h2>ingresa tu contraseña</h2>
+        <input type="password" name="contrasena" required>
+        <h2>Ingresa tu mail</h2>
+        <input type="text" placeholder="ejemplo@gmail.com" name="mail" required>
+        <h2>Edad</h2>
+        <input type="number" placeholder="18" min="18" max="200" name="edad" required>
+        <h2>Fecha de nacimiento</h2>
+        <input type="date" name="fecha" required>
+        <h2>Barrio</h2>
+        
+        <select name="barrio" id="" required>
+            <option selected disabled> Eleji un barrio</option>
+            <option value="">almagro</option>
+            <option value="">Caballito</option>
+            <option value="">Lanuz</option>
+            <option value="">Avellaneda</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar Informacion</button>
+        <button type="button">No hago nada</button>
+
+    </form>
+</body>
+</html>
